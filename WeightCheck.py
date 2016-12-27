@@ -72,6 +72,13 @@ class Check:
 		self.height = height 
 		self.selisih = int(self.height) - int(self.weight)
 
+	def FaktorYgDiperhitungkan(self,*args):
+		i = 0
+		for faktor in args:
+			i = i + 1
+			print (str(i)+'-'+faktor)
+
+
 	def CheckKondisi(self):
 		self.selisih = int(self.selisih)
 		if self.selisih > 120 :
@@ -95,9 +102,9 @@ class Check:
 				saran = 'HARUS DIET! \n Usia LEBIH DARI 50 tahun selisih tinggi-berat yang ideal adalah 90'
 		elif kondisi == 'KURUS':
 			if self.age < 50 :
-				saran = 'Berat badan HARUS DINAIKKAN! \n Usia KURANG DARI 50 tahun selisih tinggi-berat yang ideal adalah 100'
+				saran = 'Berat badan HARUS DITAMBAH! \n Usia KURANG DARI 50 tahun selisih tinggi-berat yang ideal adalah 100'
 			else:
-				saran = 'Berat badan HARUS DINAIKKAN!  \n Usia LEBIH DARI 50 tahun selisih tinggi-berat yang ideal adalah 90'
+				saran = 'Berat badan HARUS DITAMBAH!  \n Usia LEBIH DARI 50 tahun selisih tinggi-berat yang ideal adalah 90'
 		else:
 			saran = 'Berat badan PAS!! Pertahankan!'
 		return saran
@@ -139,7 +146,15 @@ def InputData(*args):
 
 	Checking = Check(age,weight,height) 
 	selisih = Checking.selisih
-	print('Berdasarkan data pasien tersebut memiliki selisih tinggi-berat: ',selisih)
+
+	print('\n Secara medis, untuk menentukan seseorang Gemuk, Kurus, atau PAS, \n faktor yg diperhitungkan:')
+	faktor = Checking.FaktorYgDiperhitungkan('umur','tinggi badan','berat badan')
+	
+	#Jangan lagi memanggil fungsi print faktor, hasilnya bakal : None
+	print(' >>> #comment this!', faktor)
+
+
+	print('\n Berdasarkan data pasien tersebut memiliki selisih tinggi-berat: ',selisih)
 	kondisi = Checking.CheckKondisi()
 	print('Kesimpulan dan Saran: \n', kondisi)
 	print('==============')
