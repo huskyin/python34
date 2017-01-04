@@ -1,0 +1,6 @@
+#Method 1:
+
+#$ pip freeze > requirements.txt
+#Use pip’s freeze command to generate a requirements.txt file for your project: If you save #this in requirements.txt, then you can install it with:
+# C:/Django/project/pip install -r requirements.txt.
+#sumur : http://www.idiotinside.com/2015/05/10/python-auto-generate-requirements-txt/
