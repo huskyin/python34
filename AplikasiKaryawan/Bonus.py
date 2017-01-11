@@ -1,0 +1,3 @@
+
+class Bonus:
+	pass

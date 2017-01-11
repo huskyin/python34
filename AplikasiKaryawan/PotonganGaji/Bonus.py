@@ -1,0 +1,3 @@
+
+class BonusTeladan:
+	pass
