@@ -129,7 +129,7 @@ def NilaiKanan(notasi_kanan):
 
 #cek apakah ada tanda yang dilarang
 if notasi.count('=') > 1 :
-	print ("Error, tanda 'sama dengan' dengan hanya boleh ada 1")
+	print ("Error, tanda 'sama dengan / =' dengan hanya boleh ada 1")
 	PASS = False
 if notasi.count('^') != 0:
 	PASS = False
