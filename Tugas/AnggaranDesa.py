@@ -3,6 +3,22 @@ Program AnggaranDesa.py
 menghitung anggaran berdasarkan desa
 
 dibuat oleh Rian Irawan Hariadi , huskyin.com
+
+Silahkan pelajari link ini buat referensi:
+- http://stackoverflow.com/questions/3294889/iterating-over-dictionaries-using-for-loops-in-python
+- http://www.mkyong.com/python/python-how-to-loop-a-dictionary/
+- https://learnpythonthehardway.org/book/ex32.html
+- http://stackoverflow.com/questions/9138112/looping-over-a-list-in-python
+- http://www.thegeekstuff.com/2013/06/python-list/?utm_source=feedly
+- http://effbot.org/zone/python-list.htm
+- http://pythoncentral.io/pythons-range-function-explained/
+- http://stackoverflow.com/questions/3294889/iterating-over-dictionaries-using-for-loops-in-python
+- https://www.tutorialspoint.com/python/dictionary_get.htm
+- https://developers.google.com/edu/python/sorting
+- http://stackoverflow.com/questions/3496518/python-using-a-dictionary-to-count-the-items-in-a-list
+- http://mastercode.online/unit/find-keys-values-python-dictionary/
+
+
 '''
 
 
