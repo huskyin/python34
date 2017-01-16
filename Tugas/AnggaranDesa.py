@@ -22,25 +22,7 @@ Silahkan pelajari link ini buat referensi:
 '''
 
 
-
-class NamaDesa:
-	def __init__(self,str_desa):
-		no_id, nama_desa, kabupaten, kota , anggaran = str_desa.split('==')
-		self.nama_desa = nama_desa
-		
-
-	def daftardesa(self):
-		dict_desa = Counter(listdesa)
-		listdesa = list(dict_desa.keys())
-		# hasilnya list nama desa secara unik
-		return listdesa
-
-
-
-
 class Soal:
-
-	dict_anggaran = {}
 
 	def __init__(self,str_desa):
 		no_id, nama_desa, kabupaten, kota , anggaran = str_desa.split('==')
@@ -111,7 +93,7 @@ for nama in listdesaunik:
 
 print('\n \n ======= MARI DIPROSES ======= ')
 
-for c in range (len(str_desa)):
+for s in range (len(str_desa)):
 	print (str_desa[s])
 	desa = Soal(str_desa[s])
 	nama_desa = desa.get_nama_desa()
@@ -123,7 +105,7 @@ for c in range (len(str_desa)):
 	for nama in listdesaunik:
 		if nama == nama_desa:
 			dict_anggaran[nama_desa] += jumlah_anggaran
-	s += 1
+	
 
 
 print('\n \n ======= OUTPUT:  ======= ')
