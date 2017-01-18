@@ -1,0 +1,5 @@
+Wong Aksan==Drum
+Andra Junaedi==Guitar
+Ahmad Dhani==['Vocal', 'Keyboard']
+Once==Vocal
+Tyo Nugros==Bass
