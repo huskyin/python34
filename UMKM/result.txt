@@ -1,0 +1,1 @@
+{"nama": ["Husky Innovation Genius", "PT Azimuth", "Kebon Coding"], "owner": ["Rian Irawan Hariadi", "Choki", "Abdul CHaer"], "no": ["0", "1", "2"], "total": "3"}
